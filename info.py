@@ -15,7 +15,7 @@ def is_enabled(value, default):
 #main variables
 API_ID = int(environ.get('API_ID', '2054877'))
 API_HASH = environ.get('API_HASH', '4227c1e45e462209a3dcc67ada88a44f')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5459553797:AAHuI82K3DVF7klRzFdXMtnY6ex6C-9nsXU")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7636083667:AAEdEqzQ1PU69dW6WNaW-JowqJ0F9vm45OU")
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '957158815').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/biisal")
